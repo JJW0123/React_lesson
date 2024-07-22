@@ -4,13 +4,13 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 
-import MainPage from './chapter_15/MainPage';
+import Blocks from './chapter_16/Blocks';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 
 root.render(
   <React.StrictMode>
-    <MainPage/>
+    <Blocks/>
   </React.StrictMode>
 );
 
